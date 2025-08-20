@@ -1,3 +1,7 @@
+.faq-answer{
+    margin: 10px;
+}
+
 #containerContact {
     display: flex;
     flex-direction: column;
