@@ -3,10 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style src="style.css"></style>
-    <title>Document</title>
+
+    <title>FAQ - Calouros</title>
 </head>
 <body>
+   
+  <header>
+    <h1>FAQ - Calouros</h1>
+  </header>
+
+  <section>
+    <h2>Busca</h2>
+    <input type="text" placeholder="Digite sua dúvida...">
+  </section>
+
+  <section>
+    <h2>Tópicos</h2>
+    <div>
+      Onde ficam as salas de aula?
+      <div class="faq-answer">As salas ficam no bloco A e B, conforme seu curso.</div>
+    </div>
+    <div>
+      Como acessar o portal do aluno?
+      <div>Acesse portal.universidade.edu com seu RA e senha inicial.</div>
+    </div>
+    <div>
+      Existe apoio para calouros?
+      <div>Sim, temos a semana de integração e grupos de mentoria.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <form id="containerContact">
+      <label>Nome:</label>
+      <input type="text" required>
+      <label>Email:</label>
+      <input type="text" required>
+      <label>Mensagem:</label>
+      <textarea rows="4"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 </body>
 </html>
